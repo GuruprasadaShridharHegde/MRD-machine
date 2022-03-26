@@ -40,6 +40,9 @@ Figure(a) consists of a hardware unit Arduino Mega 2560, rotary encoder with pus
 ### Working:
 Figure(b) illustrates flow chart that is when the machine is first booted, the user is asked to set the dose times for all the doses of each day. If two racks are used, up to 28 doses can be stored in a single refill. Each day, 4 doses can be delivered according to the time set. The LCD displays upcoming doses. The rotary encoder is used to set the time for each dose. Servo motors are used to deliver the medicine to rack and clear the rack if the patient misses the dose. The IR sensor is used to detect the time at which the dose is dropped and taken by the patient and the data is stored in SD card in .csv format. Once the dose is delivered, the speaker plays a tone (a custom audio clip which is dubbing of person reminding to take the dose, followed by a ringtone) to alert the patient to take the dose. LED also blinks repeatedly to provide visual output.
 
+![A4_Synopsis_Medicine reminder and dispensing machine pdf - Adobe Acrobat Pro DC (32-bit)](https://user-images.githubusercontent.com/85961223/160226204-bf595b08-d34e-4798-8123-e7003548c6a3.jpg)
+
+
 
 
 
