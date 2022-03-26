@@ -42,6 +42,12 @@ Figure(b) illustrates flow chart that is when the machine is first booted, the u
 
 ![A4_Synopsis_Medicine reminder and dispensing machine pdf - Adobe Acrobat Pro DC (32-bit)](https://user-images.githubusercontent.com/85961223/160226204-bf595b08-d34e-4798-8123-e7003548c6a3.jpg)
 
+### Tools used (software / hardware): 
+C language to program the Arduino Mega, Proteus software for PCB design and circuit simulation, box with racks.
+
+### Applications: 
+This product can be easily replicated and placed in Covid-19 quarantine centers and hospitals next to patient's bed to give their medication on time. Also it can be used in home if old aged and also physically disabled patients exists.
+
 
 
 
