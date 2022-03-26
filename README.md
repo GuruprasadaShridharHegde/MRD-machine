@@ -18,4 +18,28 @@ further studies. Currently there isn't any fully functional embedded system in t
 provides the options to fill the medicine and the reminder (doze) times. So this project is proposed
 using embedded systems.
 
+### Objective: 
+The objective or the goal of the expected results of the project could be summarized as follows:
+ Set the dose and timings by doctor.
+ Display the upcoming dose, timings on a LCD display.
+ Plays the confirmation alarm tone on a speaker.
+ Opens the medicine holding rack and updates the information on the system.
+
+### Proposed methodology:
+ Requirements: Project requirements are analyzed and documented.
+ System Design: Make a detailed plan on how to accomplish design and project goals.
+ Implementation: Implement the project plan and set standards to measure progress.
+ Verification: Verify the system by doing test cases and some modifications can be done.
+ Maintenance: System can be maintained at regular intervals of time if necessary.
+
+### Proposed block diagram: 
+![A4_Synopsis_Medicine reminder and dispensing machine pdf - Adobe Acrobat Pro DC (32-bit)](https://user-images.githubusercontent.com/85961223/160226147-f1f89de3-cba3-429f-83d9-18e41b929de2.jpg)
+
+Figure(a) consists of a hardware unit Arduino Mega 2560, rotary encoder with push button, SG90 micro-servo motor, DS3231 RTC module, MP3 player module and speaker, 16*2 LCD display, LED, IR sensor, micro SD card module and SD card.
+
+### Working:
+Figure(b) illustrates flow chart that is when the machine is first booted, the user is asked to set the dose times for all the doses of each day. If two racks are used, up to 28 doses can be stored in a single refill. Each day, 4 doses can be delivered according to the time set. The LCD displays upcoming doses. The rotary encoder is used to set the time for each dose. Servo motors are used to deliver the medicine to rack and clear the rack if the patient misses the dose. The IR sensor is used to detect the time at which the dose is dropped and taken by the patient and the data is stored in SD card in .csv format. Once the dose is delivered, the speaker plays a tone (a custom audio clip which is dubbing of person reminding to take the dose, followed by a ringtone) to alert the patient to take the dose. LED also blinks repeatedly to provide visual output.
+
+
+
 
